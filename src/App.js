@@ -3,6 +3,7 @@ import './App.css';
 import UseStateHook from './hooks/UseStateHook';
 import UserReducerHook from './hooks/UseReducerHook';
 import  UseRefHook  from './hooks/UseRefHook';
+import UseEffectHook from './hooks/UseEffectHook';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
   <UserReducerHook/>
   <h1>useRef hook demo</h1>
   <UseRefHook/>
+  <h1>useEffect hook demo</h1>
+  <UseEffectHook/>
    </>
   
   );
