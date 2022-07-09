@@ -7,7 +7,7 @@ const UseStateHook=()=>{
        setCounter(counter+1);
     }
     return(<>
-    <h1>{counter}</h1>
+    <h3>{counter}</h3>
     <button onClick={incrementValue}>increment</button>
     </>
     )
